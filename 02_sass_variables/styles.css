@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #eeeeee;
+  padding: 2rem 0;
+}
+
+main section {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section p {
+  text-align: justify;
+  margin: 2rem;
+}
+
+main section .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section .buttons button {
+  margin: 1rem;
+  color: #ffffff;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main section .buttons button:first-child {
+  background-color: #90ee90;
+}
+
+main section .buttons button:last-child {
+  background-color: #800080;
+}
+/*# sourceMappingURL=styles.css.map */
